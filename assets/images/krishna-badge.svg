@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c91b29" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </linearGradient>
+    <linearGradient id="kbGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="60%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+    <linearGradient id="kbPeacock" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Red Rounded Square Container -->
+  <rect x="2" y="2" width="96" height="96" rx="20" fill="url(#kbBg)" stroke="url(#kbGold)" stroke-width="2" />
+
+  <!-- Lord Krishna Playing Flute (Divine Art Emblem) -->
+  <g transform="translate(14, 10)">
+    
+    <!-- Mor Pankh (Peacock Feather in Crown) -->
+    <g transform="translate(36, 4) rotate(15)">
+      <!-- Outer feather fan -->
+      <path d="M 0,0 C -12,-10 -10,-24 0,-28 C 10,-24 12,-10 0,0 Z" fill="#059669" />
+      <!-- Feather fronds -->
+      <path d="M -8,-20 L -3,-16 M -9,-14 L -2,-12 M -8,-8 L -2,-8 M 8,-20 L 3,-16 M 9,-14 L 2,-12 M 8,-8 L 2,-8" stroke="#047857" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- Blue eye -->
+      <ellipse cx="0" cy="-16" rx="6" ry="8" fill="url(#kbPeacock)" />
+      <!-- Gold core -->
+      <circle cx="0" cy="-15" r="3.2" fill="url(#kbGold)" />
+      <circle cx="1" cy="-16" r="1" fill="#ffffff" />
+      <!-- Stem -->
+      <path d="M 0,0 Q -1,10 0,16" stroke="url(#kbGold)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Mukut / Crown -->
+    <path d="M 28,24 L 46,24 L 43,15 L 37,12 L 31,15 Z" fill="url(#kbGold)" />
+    <!-- Crown jewel -->
+    <circle cx="37" cy="18" r="2" fill="#ef4444" />
+
+    <!-- Lord Krishna Face Profile -->
+    <path d="M 33,25 
+             C 33,25 36,29 37,32 
+             C 38,33 42,34 43,35 
+             C 41,36 39,37 38,38 
+             C 40,40 41,41 40,42 
+             C 38,43 36,43 35,45 
+             C 33,48 30,50 27,51
+             C 24,48 23,40 25,32
+             C 27,26 31,25 33,25 Z" 
+          fill="#ffffff" />
+
+    <!-- Tilak on Forehead -->
+    <path d="M 34,26 C 34,28 35,30 35,31" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Krishna Lotus Eye -->
+    <path d="M 33,32 Q 36,31 38,33 Q 35,34 33,32 Z" fill="#1e293b" />
+
+    <!-- Divine Golden Bansuri (Flute) -->
+    <g transform="translate(10, 42) rotate(-8)">
+      <rect x="0" y="-3" width="60" height="6" rx="3" fill="url(#kbGold)" />
+      <!-- Finger holes -->
+      <circle cx="18" cy="0" r="1.3" fill="#78350f" />
+      <circle cx="25" cy="0" r="1.3" fill="#78350f" />
+      <circle cx="32" cy="0" r="1.3" fill="#78350f" />
+      <circle cx="39" cy="0" r="1.3" fill="#78350f" />
+      <circle cx="46" cy="0" r="1.3" fill="#78350f" />
+      <!-- Hanging Tassel -->
+      <path d="M 52,3 Q 55,10 52,14" fill="none" stroke="url(#kbGold)" stroke-width="1.5"/>
+      <circle cx="52" cy="15" r="2" fill="#ef4444"/>
+    </g>
+
+    <!-- Hands holding the flute -->
+    <ellipse cx="28" cy="44" rx="4.5" ry="3.5" fill="#ffffff" />
+    <ellipse cx="44" cy="42" rx="4" ry="3.5" fill="#ffffff" />
+
+    <!-- Divine Kundal / Earring -->
+    <circle cx="28" cy="38" r="2" fill="url(#kbGold)" />
+
+    <!-- Devotional Sacred Tag below -->
+    <text x="36" y="68" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="800" fill="#fde047" text-anchor="middle" letter-spacing="1">
+      ॥ श्री कृष्ण ॥
+    </text>
+
+  </g>
+</svg>

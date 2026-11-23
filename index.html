@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madhav Online Center | Belipar, Gorakhpur</title>
+  <meta name="description" content="Madhav Online Center, Belipar, Gorakhpur. Complete government and online services counter: Aadhaar, PAN card, e-District certificates, train tickets, pensions, banking cash withdrawal, bill payments, and job forms.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Bar (Exact Mockup Match) -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span class="top-left-text">Jai Shree Krishna</span>
+      <span class="top-right-text">Government and online services in one place</span>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      
+      <!-- Brand Logo with Lord Krishna Theme -->
+      <a href="#" class="brand-logo" aria-label="Madhav Online Center Home">
+        <div class="krishna-logo-badge">
+          <img src="assets/images/krishna-badge.svg" alt="Shree Krishna Logo" class="badge-img" width="46" height="46">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Madhav Online Center</span>
+          <span class="brand-subtitle">BELIPAR, GORAKHPUR</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links with Services Mega Menu & Contact Form Triggers -->
+      <nav class="nav-links">
+        
+        <!-- Services Dropdown / Mega Menu -->
+        <div class="nav-item-dropdown" id="servicesDropdownContainer">
+          <button class="nav-link nav-dropdown-btn" id="navServicesBtn" aria-expanded="false" aria-haspopup="true">
+            <span>Services</span>
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+
+          <!-- Services Mega Menu Dropdown -->
+          <div class="mega-menu" id="servicesMegaMenu" role="menu">
+            <div class="mega-menu-header">
+              <div class="mega-menu-title-box">
+                <span class="mega-badge">ALL SERVICES</span>
+                <h3 class="mega-title">All Online & Government Services</h3>
+                <p class="mega-subtitle">Click on any service to inquire directly or call us</p>
+              </div>
+              <div class="mega-search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="megaSearchInput" placeholder="Search service (e.g. Aadhar, PAN, Pension, Khasra, Ticket)..." aria-label="Search services in mega menu">
+              </div>
+            </div>
+
+            <div class="mega-menu-grid" id="megaMenuGrid">
+              
+              <!-- Category 1: Certificates & e-District -->
+              <div class="mega-cat-col">
+                <div class="mega-cat-header cat-red">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                  </svg>
+                  <span>Certificates & e-District</span>
+                </div>
+                <ul class="mega-service-list">
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Income%20Certificate%20(आय%20प्रमाण%20पत्र)." target="_blank" rel="noopener">Income Certificate (आय प्रमाण पत्र)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Caste%20Certificate%20(जाति%20प्रमाण%20पत्र)." target="_blank" rel="noopener">Caste Certificate (जाति प्रमाण पत्र)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Residence%20Certificate%20(निवास%20प्रमाण%20पत्र)." target="_blank" rel="noopener">Residence / Domicile (निवास प्रमाण पत्र)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Birth%20or%20Death%20Certificate." target="_blank" rel="noopener">Birth & Death Certificates (जन्म-मृत्यु)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Khasra%20Khatauni%20Printout%20(खतौनी%20नकल)." target="_blank" rel="noopener">Khasra & Khatauni (खसरा-खतौनी नकल)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Disability%20Certificate." target="_blank" rel="noopener">Disability Certificate (दिव्यांग प्रमाण)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Haisiyat%20Certificate." target="_blank" rel="noopener">Haisiyat Certificate (हैसियत प्रमाण पत्र)</a></li>
+                </ul>
+              </div>
+
+              <!-- Category 2: Identity & Cards -->
+              <div class="mega-cat-col">
+                <div class="mega-cat-header cat-blue">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                  <span>Identity & Cards</span>
+                </div>
+                <ul class="mega-service-list">
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Aadhaar%20Printout%20/%20PVC%20Card." target="_blank" rel="noopener">Aadhaar Print & PVC Card (आधार कार्ड)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20New%20PAN%20Card%20or%20Correction." target="_blank" rel="noopener">New PAN Card & Correction (पैन कार्ड)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Ration%20Card%20Service." target="_blank" rel="noopener">Ration Card Online (नया / नाम जोड़ना)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Ayushman%20Golden%20Card." target="_blank" rel="noopener">Ayushman Card (5 लाख मुफ्त इलाज)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Voter%20ID%20Card." target="_blank" rel="noopener">Voter ID Card (वोटर पहचान पत्र)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Driving%20Licence%20Apply." target="_blank" rel="noopener">Driving Licence (लर्निंग व परमानेंट डीएल)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Passport%20Online%20Application." target="_blank" rel="noopener">Passport Online (पासपोर्ट ऑनलाइन)</a></li>
+                </ul>
+              </div>
+
+              <!-- Category 3: Pensions & Schemes -->
+              <div class="mega-cat-col">
+                <div class="mega-cat-header cat-green">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                  <span>Pensions & Schemes</span>
+                </div>
+                <ul class="mega-service-list">
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Old%20Age%20Pension." target="_blank" rel="noopener">Old Age Pension (वृद्धावस्था पेंशन)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Widow%20Pension." target="_blank" rel="noopener">Widow Pension (निराश्रित महिला पेंशन)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Disability%20Pension." target="_blank" rel="noopener">Disability Pension (दिव्यांग पेंशन)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20PM%20Kisan%20Samman%20Nidhi." target="_blank" rel="noopener">PM Kisan Samman Nidhi eKYC / Reg.</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20UP%20Scholarship%20Form." target="_blank" rel="noopener">UP Scholarship (छात्रवृत्ति ऑनलाइन फॉर्म)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Kanya%20Sumangala%20Yojana." target="_blank" rel="noopener">Kanya Sumangala (कन्या सुमंगला योजना)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Shadi%20Anudan%20Yojana." target="_blank" rel="noopener">Shadi Anudan (शादी अनुदान योजना)</a></li>
+                </ul>
+              </div>
+
+              <!-- Category 4: Travel & Ticketing -->
+              <div class="mega-cat-col">
+                <div class="mega-cat-header cat-orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="4" y="3" width="16" height="16" rx="2"></rect>
+                    <path d="M4 11h16"></path>
+                  </svg>
+                  <span>Travel & Ticketing</span>
+                </div>
+                <ul class="mega-service-list">
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Train%20Ticket%20Booking." target="_blank" rel="noopener">IRCTC Train Ticket (कन्फर्म व तत्काल)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Bus%20Ticket%20Booking." target="_blank" rel="noopener">Bus Ticket (रोडवेज व प्राइवेट बस टिकट)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Air%20Flight%20Ticket%20Booking." target="_blank" rel="noopener">Flight Ticket (घरेलू व इंटरनेशनल फ्लाइट)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Bike%20Insurance." target="_blank" rel="noopener">Bike & Scooter Insurance (दोपहिया बीमा)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Car%20or%20Vehicle%20Insurance." target="_blank" rel="noopener">Car & Commercial Vehicle Insurance</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20FASTag%20New%20or%20Recharge." target="_blank" rel="noopener">FASTag New & Recharge (फास्टैग)</a></li>
+                </ul>
+              </div>
+
+              <!-- Category 5: Money & Bills -->
+              <div class="mega-cat-col">
+                <div class="mega-cat-header cat-teal">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                    <circle cx="12" cy="12" r="2.5"></circle>
+                  </svg>
+                  <span>Money & Bills</span>
+                </div>
+                <ul class="mega-service-list">
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Aadhaar%20Cash%20Withdrawal%20(AePS)." target="_blank" rel="noopener">Aadhaar Cash Withdrawal (AePS निकासी)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Micro%20ATM%20Cash%20Withdrawal." target="_blank" rel="noopener">ATM Card Cash Swipe (एटीएम निकासी)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Money%20Transfer%20service." target="_blank" rel="noopener">Money Transfer (किसी भी बैंक खाते में)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Electricity%20Bill%20Payment." target="_blank" rel="noopener">Electricity Bill Payment (बिजली बिल जमा)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Gas%20Cylinder%20Booking." target="_blank" rel="noopener">Gas Cylinder Booking (एलपीजी गैस)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Mobile%20or%20DTH%20Recharge." target="_blank" rel="noopener">Mobile & DTH Recharge (सभी रिचार्ज)</a></li>
+                </ul>
+              </div>
+
+              <!-- Category 6: Print, Forms & Docs -->
+              <div class="mega-cat-col">
+                <div class="mega-cat-header cat-cyan">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                    <rect x="6" y="14" width="12" height="8"></rect>
+                  </svg>
+                  <span>Print & Online Forms</span>
+                </div>
+                <ul class="mega-service-list">
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20to%20fill%20Govt%20Job%20Online%20Form." target="_blank" rel="noopener">All Govt Job Forms (SSC, Police, Army, RLY)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20College%20Admission%20Form." target="_blank" rel="noopener">College & University Admission Forms</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Color%20or%20BW%20Printout." target="_blank" rel="noopener">High Quality Printout (कलर व ब्लैक)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Photocopy%20service." target="_blank" rel="noopener">Photocopy / Xerox (फोटोकॉपी)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Lamination%20service." target="_blank" rel="noopener">Document Lamination (लैमिनेशन)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Instant%20Passport%20Photos." target="_blank" rel="noopener">Instant Passport Size Photos (फोटो तुरंत)</a></li>
+                  <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Resume%20/%20CV%20Making." target="_blank" rel="noopener">Professional Resume / CV (बायोडाटा)</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+            <!-- Mega Menu Footer Action -->
+            <div class="mega-menu-footer">
+              <div class="mega-footer-left">
+                <span>Direct Contact: <strong>7355788684</strong> / <strong>9569800604</strong></span>
+              </div>
+              <div class="mega-footer-right">
+                <a href="#services" class="mega-scroll-link" id="megaScrollToServices">View full details on page &darr;</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <a href="#how-it-works" class="nav-link">How it works</a>
+        
+        <!-- Contact with Interactive Form Button in Navbar -->
+        <button class="nav-link nav-contact-trigger-btn" id="navContactTriggerBtn" aria-haspopup="dialog" aria-expanded="false" title="Click to open Contact & WhatsApp Form">
+          <span>Contact</span>
+          <span class="nav-form-tag">Form ✍️</span>
+        </button>
+      </nav>
+
+      <!-- Nav Call Button (Exact Mockup Match) -->
+      <div class="nav-cta">
+        <a href="tel:7355788684" class="btn btn-red btn-header-call">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>Call 73557 88684</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section">
+      <div class="container hero-container">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-left">
+          
+          <div class="location-badge">
+            <span>BISTAULI KHURD, BELIPAR</span>
+          </div>
+
+          <h1 class="hero-heading">
+            Government and<br>
+            online work, <span class="highlight-red">done<br>
+            at one counter.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Apply for certificates, print Aadhaar, book train tickets, fill online forms and withdraw cash. Tell us what you need and we take care of the rest.
+          </p>
+
+          <!-- Action buttons matching mockup -->
+          <div class="hero-actions">
+            <!-- Call Now -->
+            <a href="tel:7355788684" class="btn btn-red btn-hero">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>Call now</span>
+            </a>
+
+            <!-- See all services (triggers scroll / mega menu) -->
+            <button class="btn btn-outline btn-hero" id="heroSeeAllBtn">
+              <span>See all services</span>
+            </button>
+          </div>
+
+          <!-- Feature badges below CTA -->
+          <div class="hero-features">
+            
+            <div class="feature-item">
+              <div class="feature-icon check-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="feature-text">
+                <strong>Fair service charges</strong>
+                <span>on every service</span>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon atm-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                  <line x1="2" y1="10" x2="22" y2="10"></line>
+                  <circle cx="7" cy="15" r="1.5"></circle>
+                </svg>
+              </div>
+              <div class="feature-text">
+                <strong>Cash withdrawal</strong>
+                <span>with Aadhaar or ATM card</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Right Hero Card: "Most asked services" -->
+        <div class="hero-right">
+          <div class="most-asked-card">
+            
+            <div class="card-header">
+              <h2 class="card-title">Most asked services</h2>
+              <p class="card-desc">Tap any one to ask us about it.</p>
+            </div>
+
+            <div class="most-asked-list">
+              
+              <!-- 1: Aadhaar printout -->
+              <a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20want%20to%20inquire%20about%20Aadhaar%20printout." 
+                 target="_blank" 
+                 rel="noopener" 
+                 class="asked-item" 
+                 title="Inquire about Aadhaar printout">
+                <span class="badge-char badge-red">A</span>
+                <span class="item-name">Aadhaar printout</span>
+                <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+
+              <!-- 2: PAN card registration -->
+              <a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20want%20to%20inquire%20about%20PAN%20card%20registration." 
+                 target="_blank" 
+                 rel="noopener" 
+                 class="asked-item" 
+                 title="Inquire about PAN card registration">
+                <span class="badge-char badge-blue">P</span>
+                <span class="item-name">PAN card registration</span>
+                <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+
+              <!-- 3: Income, caste, residence certificate -->
+              <a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20want%20to%20inquire%20about%20Income,%20caste,%20residence%20certificate." 
+                 target="_blank" 
+                 rel="noopener" 
+                 class="asked-item" 
+                 title="Inquire about certificates">
+                <span class="badge-char badge-green">I</span>
+                <span class="item-name">Income, caste, residence certificate</span>
+                <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+
+              <!-- 4: Rail, bus and air tickets -->
+              <a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20want%20to%20inquire%20about%20Rail,%20bus%20and%20air%20tickets." 
+                 target="_blank" 
+                 rel="noopener" 
+                 class="asked-item" 
+                 title="Inquire about tickets">
+                <span class="badge-char badge-orange">R</span>
+                <span class="item-name">Rail, bus and air tickets</span>
+                <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+
+              <!-- 5: Online forms -->
+              <a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20want%20to%20inquire%20about%20Online%20forms." 
+                 target="_blank" 
+                 rel="noopener" 
+                 class="asked-item" 
+                 title="Inquire about online forms">
+                <span class="badge-char badge-purple">F</span>
+                <span class="item-name">Online forms</span>
+                <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHAT WE DO: 6 Complete Groups of All Services -->
+    <section class="services-section" id="services">
+      <div class="container">
+        
+        <div class="section-intro">
+          <span class="section-tag">WHAT WE DO</span>
+          <h2 class="section-title">Everything you need in six groups</h2>
+          <p class="section-subtitle">
+            From a single photocopy to a passport application, you do not have to go from office to office.
+          </p>
+
+          <!-- Search Filter for Services -->
+          <div class="page-services-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="pageServiceSearch" placeholder="Search any service (e.g. Aadhaar, Khasra, Pension, PAN, Ticket)..." aria-label="Search all services">
+            <button id="clearPageSearch" class="clear-search-btn" style="display:none;" aria-label="Clear search">&times;</button>
+          </div>
+        </div>
+
+        <!-- 6 Comprehensive Service Cards Grid -->
+        <div class="services-grid" id="fullServicesGrid">
+          
+          <!-- Card 1: Certificates and e-District -->
+          <div class="service-card" data-category="certificates">
+            <div class="service-icon-box icon-red">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Certificates & e-District</h3>
+            <ul class="service-list">
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Income%20Certificate." target="_blank" rel="noopener">Income, caste and residence certificates (आय, जाति, निवास)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Birth%20or%20Death%20Certificate." target="_blank" rel="noopener">Birth and death certificates (जन्म एवं मृत्यु प्रमाण पत्र)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20e-District%20Services." target="_blank" rel="noopener">All e-District portal services (ई-डिस्ट्रिक्ट सेवाएं)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Khasra%20Khatauni%20printout." target="_blank" rel="noopener">Khasra and Khatauni printout (खसरा व खतौनी भूलेख नकल)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Disability%20Certificate." target="_blank" rel="noopener">Disability certificate (दिव्यांग प्रमाण पत्र)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Haisiyat%20Certificate." target="_blank" rel="noopener">Haisiyat certificate (हैसियत प्रमाण पत्र)</a></li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Identity and cards -->
+          <div class="service-card" data-category="identity">
+            <div class="service-icon-box icon-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+                <circle cx="8" cy="10" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Identity & Cards</h3>
+            <ul class="service-list">
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Aadhaar%20printout%20or%20PVC." target="_blank" rel="noopener">Aadhaar printout & PVC smart card (आधार कार्ड)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20New%20PAN%20card%20or%20correction." target="_blank" rel="noopener">PAN card registration & instant e-PAN (पैन कार्ड नया/सुधार)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Ration%20card%20service." target="_blank" rel="noopener">Ration card online apply & unit addition (राशन कार्ड)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Ayushman%20card." target="_blank" rel="noopener">Ayushman card - 5 Lakh free treatment (आयुष्मान कार्ड)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Voter%20ID%20card." target="_blank" rel="noopener">Voter ID card apply & download (वोटर पहचान पत्र)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Passport%20and%20Driving%20Licence." target="_blank" rel="noopener">Passport and driving licence online (पासपोर्ट व ड्राइविंग लाइसेंस)</a></li>
+            </ul>
+          </div>
+
+          <!-- Card 3: Pensions and schemes -->
+          <div class="service-card" data-category="pensions">
+            <div class="service-icon-box icon-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Pensions & Schemes</h3>
+            <ul class="service-list">
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Old%20age%20pension." target="_blank" rel="noopener">Old age pension (वृद्धावस्था पेंशन)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Widow%20pension." target="_blank" rel="noopener">Widow pension (निराश्रित महिला पेंशन)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Disability%20pension." target="_blank" rel="noopener">Disability pension (दिव्यांग पेंशन)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20PM%20Kisan%20Samman%20Nidhi." target="_blank" rel="noopener">PM Kisan Samman Nidhi eKYC & registration (पीएम किसान)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20UP%20Scholarship." target="_blank" rel="noopener">UP Scholarship Pre & Post Matric (यूपी छात्रवृत्ति)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Govt%20Schemes%20form." target="_blank" rel="noopener">Kanya Sumangala & Shadi Anudan (सरकारी अनुदान योजनाएं)</a></li>
+            </ul>
+          </div>
+
+          <!-- Card 4: Travel and vehicle -->
+          <div class="service-card" data-category="travel">
+            <div class="service-icon-box icon-orange">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="3" width="16" height="16" rx="2"></rect>
+                <path d="M4 11h16"></path>
+                <circle cx="8" cy="15" r="1.5"></circle>
+                <circle cx="16" cy="15" r="1.5"></circle>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Travel & Vehicle</h3>
+            <ul class="service-list">
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Train%20tickets." target="_blank" rel="noopener">IRCTC train tickets confirmed & tatkal (रेल टिकट बुकिंग)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Bus%20tickets." target="_blank" rel="noopener">UPSRTC and private bus tickets (बस टिकट)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Air%20flight%20tickets." target="_blank" rel="noopener">Domestic and international air tickets (हवाई टिकट)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Bike%20or%20Car%20insurance." target="_blank" rel="noopener">Bike, car & commercial vehicle insurance (वाहन बीमा)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20FASTag." target="_blank" rel="noopener">FASTag new tag issuance & recharge (फास्टैग)</a></li>
+            </ul>
+          </div>
+
+          <!-- Card 5: Money and bills -->
+          <div class="service-card" data-category="money">
+            <div class="service-icon-box icon-teal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                <circle cx="12" cy="12" r="2.5"></circle>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Money & Bills</h3>
+            <ul class="service-list">
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Aadhaar%20Cash%20withdrawal." target="_blank" rel="noopener">Cash withdrawal with Aadhaar (AePS निकासी - किसी भी बैंक)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20ATM%20card%20withdrawal." target="_blank" rel="noopener">ATM card swipe cash withdrawal (माइक्रो एटीएम)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Money%20transfer." target="_blank" rel="noopener">Instant money transfer to any bank (मनी ट्रांसफर IMPS)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Electricity%20bill%20payment." target="_blank" rel="noopener">Electricity bill check & payment (बिजली बिल जमा)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Gas%20cylinder%20or%20Recharge." target="_blank" rel="noopener">LPG gas cylinder booking & mobile/DTH recharge</a></li>
+            </ul>
+          </div>
+
+          <!-- Card 6: Print, copy and lamination -->
+          <div class="service-card" data-category="print">
+            <div class="service-icon-box icon-cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Print, Copy & Forms</h3>
+            <ul class="service-list">
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20to%20apply%20for%20Govt%20Job%20Online%20Form." target="_blank" rel="noopener">All govt job forms (SSC, Railway, Police, Army, UPSSSC)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Color%20or%20BW%20Printout." target="_blank" rel="noopener">Color & B/W high speed printouts (प्रिंटआउट)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Photocopy%20and%20Lamination." target="_blank" rel="noopener">Photocopy & military grade lamination (फोटोकॉपी व लैमिनेशन)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Instant%20Passport%20Photos." target="_blank" rel="noopener">Instant passport size photographs (पासपोर्ट फोटो तुरंत)</a></li>
+              <li><a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20Professional%20Resume." target="_blank" rel="noopener">Professional resume / CV drafting (बायोडाटा निर्माण)</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div id="noPageResults" class="no-results-msg" style="display:none;">
+          <p>No service matched. Call or WhatsApp us at <strong>7355788684</strong> for instant help!</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Red Banner Section (Exact Mockup Match) -->
+    <section class="banner-section">
+      <div class="container banner-container">
+        <div class="banner-text">
+          <h2 class="banner-title">All services are available at fair service charges.</h2>
+          <p class="banner-subtitle">Ask for the charge before you start. No surprises at the counter.</p>
+        </div>
+        <div class="banner-action">
+          <a href="tel:7355788684" class="btn btn-banner">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>Call 73557 88684</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS: 3 Steps -->
+    <section class="how-it-works-section" id="how-it-works">
+      <div class="container">
+        
+        <div class="section-intro">
+          <span class="section-tag">HOW IT WORKS</span>
+          <h2 class="section-title">Three simple steps</h2>
+        </div>
+
+        <div class="steps-grid">
+          
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number-circle">1</div>
+            <h3 class="step-title">Tell us what you need</h3>
+            <p class="step-desc">Call us or walk in and say which service or form you want.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number-circle">2</div>
+            <h3 class="step-title">Bring your documents</h3>
+            <p class="step-desc">We tell you which papers and photos are needed, so you do not make a second trip.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number-circle">3</div>
+            <h3 class="step-title">We file it online</h3>
+            <p class="step-desc">We fill in, upload and submit the application for you and hand over the printout.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VISIT OR CALL: Contact & Interactive Form Section -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-container">
+        
+        <!-- Left Contact Info -->
+        <div class="contact-left">
+          
+          <span class="contact-tag">VISIT OR CALL</span>
+          <h2 class="contact-title">Madhav Online Center</h2>
+          <p class="proprietor-text">Proprietor: <span class="highlight-name">Manish Yadav</span></p>
+
+          <div class="contact-details">
+            
+            <!-- Address Item -->
+            <div class="contact-item">
+              <div class="contact-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-item-info">
+                <span class="detail-label">ADDRESS</span>
+                <span class="detail-value">Bistauli Khurd, Belipar, Gorakhpur</span>
+              </div>
+            </div>
+
+            <!-- Phone Item -->
+            <div class="contact-item">
+              <div class="contact-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-item-info">
+                <span class="detail-label">PHONE</span>
+                <div class="phone-numbers">
+                  <a href="tel:7355788684" class="phone-link">7355788684</a>
+                  <a href="tel:9569800604" class="phone-link">9569800604</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Buttons -->
+          <div class="contact-actions">
+            <a href="tel:7355788684" class="btn btn-red btn-hero">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>Call now</span>
+            </a>
+            <button class="btn btn-outline-white" id="pageOpenContactModalBtn">
+              <span>Open Online Request Form ✍️</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right Map Card matching Mockup Blueprint Grid -->
+        <div class="contact-right">
+          <div class="map-card-wrapper">
+            <!-- Blueprint grid lines -->
+            <div class="map-blueprint-grid"></div>
+
+            <!-- Red location pin with pulse -->
+            <div class="pin-radar"></div>
+
+            <div class="map-pin-container">
+              <div class="pin-marker">
+                <svg viewBox="0 0 24 24" fill="#ef4444" stroke="#ffffff" stroke-width="1.5">
+                  <path d="M12 0C7.58 0 4 3.58 4 8c0 5.25 7 13 8 14 1-1 8-8.75 8-14 0-4.42-3.58-8-8-8zm0 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/>
+                </svg>
+              </div>
+              <div class="map-tooltip">
+                <div class="map-tooltip-title">Madhav Online Center</div>
+                <div class="map-tooltip-desc">Bistauli Khurd, Belipar, Gorakhpur</div>
+              </div>
+            </div>
+
+            <!-- Direction link overlay -->
+            <a href="https://maps.google.com/?q=Bistauli+Khurd+Belipar+Gorakhpur" target="_blank" rel="noopener" class="map-directions-btn">
+              <span>Open in Google Maps &rarr;</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer (Exact Mockup Match) -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span>Madhav Online Center, Belipar, Gorakhpur</span>
+      </div>
+      <div class="footer-right">
+        <span>Prop. Manish Yadav</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       CONTACT & ONLINE SERVICE REQUEST FORM MODAL (TRIGGERED FROM NAVBAR)
+       ========================================================================= -->
+  <div class="contact-modal-overlay" id="contactModalOverlay" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <div class="contact-modal-box">
+      <!-- Close Button -->
+      <button class="modal-close-icon" id="closeContactModalBtn" aria-label="Close contact form dialog">&times;</button>
+
+      <!-- Modal Header -->
+      <div class="contact-modal-header">
+        <span class="modal-top-tag">MADHAV ONLINE CENTER</span>
+        <h3 class="contact-modal-title" id="contactModalTitle">Contact & Online Request Form</h3>
+        <p class="contact-modal-desc">
+          फॉर्म भरें और सीधे <strong>WhatsApp</strong> पर आवेदन भेजें या सीधे कॉल करें।
+        </p>
+      </div>
+
+      <!-- Quick Contact Info Bar -->
+      <div class="modal-info-strip">
+        <div class="info-strip-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <a href="tel:7355788684">7355788684</a> / <a href="tel:9569800604">9569800604</a>
+        </div>
+        <div class="info-strip-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>Bistauli Khurd, Belipar</span>
+        </div>
+      </div>
+
+      <!-- Interactive Form -->
+      <form id="onlineServiceForm" class="online-service-form" novalidate>
+        
+        <!-- Field 1: Full Name -->
+        <div class="form-group">
+          <label for="formFullName">Full Name (आपका नाम) <span class="required-star">*</span></label>
+          <input type="text" id="formFullName" placeholder="अपना पूरा नाम दर्ज करें" required>
+        </div>
+
+        <!-- Field 2: Phone / WhatsApp Number -->
+        <div class="form-group">
+          <label for="formPhone">Mobile / WhatsApp No. (मोबाइल नंबर) <span class="required-star">*</span></label>
+          <input type="tel" id="formPhone" placeholder="10 अंकों का मोबाइल नंबर" maxlength="10" required>
+        </div>
+
+        <!-- Field 3: Service Selection -->
+        <div class="form-group">
+          <label for="formService">Select Service (सेवा का चयन करें) <span class="required-star">*</span></label>
+          <div class="select-wrapper">
+            <select id="formService" required>
+              <option value="" disabled selected>-- आवश्यक सेवा चुनें --</option>
+              <optgroup label="प्रमाण पत्र एवं राजस्व">
+                <option value="आय प्रमाण पत्र (Income Certificate)">आय प्रमाण पत्र (Income Certificate)</option>
+                <option value="जाति प्रमाण पत्र (Caste Certificate)">जाति प्रमाण पत्र (Caste Certificate)</option>
+                <option value="निवास प्रमाण पत्र (Residence Certificate)">निवास प्रमाण पत्र (Residence Certificate)</option>
+                <option value="जन्म / मृत्यु प्रमाण पत्र (Birth/Death Certificate)">जन्म / मृत्यु प्रमाण पत्र (Birth/Death Certificate)</option>
+                <option value="खसरा खतौनी नकल (Khasra Khatauni Printout)">खसरा खतौनी नकल (Khasra Khatauni Printout)</option>
+              </optgroup>
+              <optgroup label="पहचान पत्र एवं कार्ड">
+                <option value="आधार कार्ड प्रिंट / PVC Smart Card">आधार कार्ड प्रिंट / PVC Smart Card</option>
+                <option value="नया पैन कार्ड / सुधार (PAN Card)">नया पैन कार्ड / सुधार (PAN Card)</option>
+                <option value="राशन कार्ड ऑनलाइन आवेदन / संशोधन">राशन कार्ड ऑनलाइन आवेदन / संशोधन</option>
+                <option value="आयुष्मान कार्ड (5 लाख मुफ्त इलाज)">आयुष्मान कार्ड (5 लाख मुफ्त इलाज)</option>
+                <option value="वोटर पहचान पत्र (Voter ID Card)">वोटर पहचान पत्र (Voter ID Card)</option>
+                <option value="ड्राइविंग लाइसेंस ऑनलाइन">ड्राइविंग लाइसेंस ऑनलाइन</option>
+                <option value="पासपोर्ट ऑनलाइन आवेदन">पासपोर्ट ऑनलाइन आवेदन</option>
+              </optgroup>
+              <optgroup label="यात्रा एवं टिकट बुकिंग">
+                <option value="IRCTC ट्रेन टिकट बुकिंग (सामान्य व तत्काल)">IRCTC ट्रेन टिकट बुकिंग (सामान्य व तत्काल)</option>
+                <option value="रोडवेज / प्राइवेट बस टिकट">रोडवेज / प्राइवेट बस टिकट</option>
+                <option value="हवाई जहाज टिकट बुकिंग">हवाई जहाज टिकट बुकिंग</option>
+                <option value="वाहन बीमा (Bike, Car, Commercial)">वाहन बीमा (Bike, Car, Commercial)</option>
+              </optgroup>
+              <optgroup label="पेंशन एवं सरकारी योजनाएं">
+                <option value="वृद्धावस्था / विधवा / दिव्यांग पेंशन">वृद्धावस्था / विधवा / दिव्यांग पेंशन</option>
+                <option value="पीएम किसान सम्मान निधि eKYC">पीएम किसान सम्मान निधि eKYC</option>
+                <option value="यूपी स्कॉलरशिप ऑनलाइन फॉर्म">यूपी स्कॉलरशिप ऑनलाइन फॉर्म</option>
+                <option value="कन्या सुमंगला / शादी अनुदान">कन्या सुमंगला / शादी अनुदान</option>
+              </optgroup>
+              <optgroup label="बैंकिंग, बिल एवं फॉर्म">
+                <option value="आधार से कैश निकासी (AePS)">आधार से कैश निकासी (AePS)</option>
+                <option value="मनी ट्रांसफर (Money Transfer)">मनी ट्रांसफर (Money Transfer)</option>
+                <option value="बिजली बिल भुगतान">बिजली बिल भुगतान</option>
+                <option value="सरकारी नौकरी ऑनलाइन फॉर्म (Govt Job Form)">सरकारी नौकरी ऑनलाइन फॉर्म (Govt Job Form)</option>
+                <option value="कलर प्रिंटआउट / फोटोकॉपी / लैमिनेशन">कलर प्रिंटआउट / फोटोकॉपी / लैमिनेशन</option>
+                <option value="अन्य कोई ऑनलाइन सेवा">अन्य कोई ऑनलाइन सेवा</option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
+
+        <!-- Field 4: Description / Message -->
+        <div class="form-group">
+          <label for="formMessage">Details / Message (जरूरी जानकारी या दस्तावेज़ विवरण)</label>
+          <textarea id="formMessage" rows="3" placeholder="उदा. मुझे तत्काल टिकट चाहिए / नया राशन कार्ड में यूनिट जोड़ना है..."></textarea>
+        </div>
+
+        <!-- Form Action Buttons -->
+        <div class="form-submit-group">
+          <!-- WhatsApp Submit Button -->
+          <button type="submit" class="btn btn-whatsapp-submit">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 17.8c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.16 8.16 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.21 8.23zm4.51-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.17 1.73 2.64 4.19 3.7 2.46 1.06 2.46.71 2.9.67.44-.04 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.17-.48-.29z"/>
+            </svg>
+            <span>Send Request on WhatsApp (व्हाट्सएप पर भेजें)</span>
+          </button>
+
+          <!-- Direct Call Alternative -->
+          <a href="tel:7355788684" class="btn btn-call-alt">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>Or Call directly: 7355788684</span>
+          </a>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- Single Floating Circular WhatsApp Chatbot Widget (Always Visible From Hero to Footer) -->
+  <aside class="whatsapp-chatbot-container" id="whatsappChatbot" aria-label="WhatsApp Chat Support">
+    <!-- Chat Speech Greeting Bubble -->
+    <div class="chatbot-speech-bubble" id="chatbotBubble">
+      <span class="bubble-text">Need help? <strong>Chat with us</strong></span>
+      <button class="bubble-close-btn" id="closeBubbleBtn" aria-label="Close tooltip">&times;</button>
+    </div>
+
+    <!-- Circular Chatbot Launcher Button -->
+    <a href="https://wa.me/917355788684?text=Namaste%20Madhav%20Online%20Center,%20I%20need%20assistance%20with%20online%20services." 
+       target="_blank" 
+       rel="noopener" 
+       class="chatbot-circle-btn" 
+       aria-label="Chat with Madhav Online Center on WhatsApp">
+      <!-- Online Green Status Indicator Dot -->
+      <span class="chatbot-status-dot"></span>
+      <!-- Continuous Radar Pulse Animation -->
+      <span class="chatbot-ripple"></span>
+      <!-- WhatsApp SVG Icon -->
+      <svg class="chatbot-svg-icon" viewBox="0 0 24 24" fill="#ffffff">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 17.8c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.16 8.16 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.21 8.23zm4.51-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.17 1.73 2.64 4.19 3.7 2.46 1.06 2.46.71 2.9.67.44-.04 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.17-.48-.29z"/>
+      </svg>
+    </a>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
