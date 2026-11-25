@@ -34,6 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const formService = document.getElementById('formService');
   const formMessage = document.getElementById('formMessage');
 
+  // Elements - Mobile Navigation Drawer & Controls
+  const mobileMenuToggleBtn = document.getElementById('mobileMenuToggleBtn');
+  const mobileNavDrawer = document.getElementById('mobileNavDrawer');
+  const mobileServicesTriggerBtn = document.getElementById('mobileServicesTriggerBtn');
+  const mobileContactTriggerBtn = document.getElementById('mobileContactTriggerBtn');
+  const mobileHowItWorksLink = document.getElementById('mobileHowItWorksLink');
+  const mobileLocationLink = document.getElementById('mobileLocationLink');
+  const closeMegaMenuBtn = document.getElementById('closeMegaMenuBtn');
+
   // Primary Business Phone
   const PRIMARY_PHONE = '7355788684';
 
@@ -272,12 +281,89 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --------------------------------------------------------------------------
-  // 7. General Navigation & Escape Key Support
+  // 7. Mobile Navigation Drawer Controls
+  // --------------------------------------------------------------------------
+  function openMobileDrawer() {
+    if (!mobileNavDrawer || !mobileMenuToggleBtn) return;
+    mobileNavDrawer.classList.add('open');
+    mobileNavDrawer.setAttribute('aria-hidden', 'false');
+    mobileMenuToggleBtn.classList.add('active');
+    mobileMenuToggleBtn.setAttribute('aria-expanded', 'true');
+  }
+
+  function closeMobileDrawer() {
+    if (!mobileNavDrawer || !mobileMenuToggleBtn) return;
+    mobileNavDrawer.classList.remove('open');
+    mobileNavDrawer.setAttribute('aria-hidden', 'true');
+    mobileMenuToggleBtn.classList.remove('active');
+    mobileMenuToggleBtn.setAttribute('aria-expanded', 'false');
+  }
+
+  function toggleMobileDrawer(e) {
+    if (e) e.stopPropagation();
+    if (mobileNavDrawer && mobileNavDrawer.classList.contains('open')) {
+      closeMobileDrawer();
+    } else {
+      closeMegaMenu();
+      openMobileDrawer();
+    }
+  }
+
+  if (mobileMenuToggleBtn) {
+    mobileMenuToggleBtn.addEventListener('click', toggleMobileDrawer);
+  }
+
+  if (closeMegaMenuBtn) {
+    closeMegaMenuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeMegaMenu();
+    });
+  }
+
+  if (mobileServicesTriggerBtn) {
+    mobileServicesTriggerBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeMobileDrawer();
+      openMegaMenu();
+    });
+  }
+
+  if (mobileContactTriggerBtn) {
+    mobileContactTriggerBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeMobileDrawer();
+      openContactModal();
+    });
+  }
+
+  if (mobileHowItWorksLink) {
+    mobileHowItWorksLink.addEventListener('click', () => {
+      closeMobileDrawer();
+    });
+  }
+
+  if (mobileLocationLink) {
+    mobileLocationLink.addEventListener('click', () => {
+      closeMobileDrawer();
+    });
+  }
+
+  document.addEventListener('click', (e) => {
+    if (mobileNavDrawer && mobileNavDrawer.classList.contains('open')) {
+      if (!mobileNavDrawer.contains(e.target) && (!mobileMenuToggleBtn || !mobileMenuToggleBtn.contains(e.target))) {
+        closeMobileDrawer();
+      }
+    }
+  });
+
+  // --------------------------------------------------------------------------
+  // 8. General Navigation & Escape Key Support
   // --------------------------------------------------------------------------
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       closeMegaMenu();
       closeContactModal();
+      closeMobileDrawer();
     }
   });
 
